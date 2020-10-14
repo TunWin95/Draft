@@ -27,9 +27,4 @@ class DocumentViewController: UIViewController {
         })
     }
     
-    @IBAction func dismissDocumentViewController() {
-        dismiss(animated: true) {
-            self.document?.close(completionHandler: nil)
-        }
-    }
 }
